@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from "react";
 import API from "./api";
 import Overview from "./overview";
@@ -29,9 +30,9 @@ export default class Ecology extends React.Component {
 }
 
 Ecology.propTypes = {
-  collapsableCode: React.PropTypes.bool,
-  overview: React.PropTypes.string,
-  playgroundtheme: React.PropTypes.string,
-  source: React.PropTypes.object,
-  scope: React.PropTypes.object
+  collapsableCode: PropTypes.bool,
+  overview: PropTypes.string,
+  playgroundtheme: PropTypes.string,
+  source: PropTypes.object,
+  scope: PropTypes.object
 };

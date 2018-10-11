@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from "react";
 
 const makeArray = (obj) =>
@@ -82,5 +83,5 @@ export default class API extends React.Component {
 }
 
 API.propTypes = {
-  source: React.PropTypes.object
+  source: PropTypes.object
 };
