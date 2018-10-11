@@ -104,5 +104,9 @@
     "sinon-chai": "^2.8.0",
     "stylus-loader": "^1.4.2",
     "webpack-dev-server": "^1.10.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   }
 }
