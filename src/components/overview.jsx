@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import React from "react";
 import ReactDOM from "react-dom";
 import marked from "marked";
@@ -59,8 +60,8 @@ class Overview extends React.Component {
 export default Overview;
 
 Overview.propTypes = {
-  collapsableCode: React.PropTypes.bool,
-  markdown: React.PropTypes.string,
-  playgroundtheme: React.PropTypes.string,
-  scope: React.PropTypes.object
+  collapsableCode: PropTypes.bool,
+  markdown: PropTypes.string,
+  playgroundtheme: PropTypes.string,
+  scope: PropTypes.object
 };

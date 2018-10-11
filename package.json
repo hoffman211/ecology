@@ -97,6 +97,7 @@
     "mocha": "^2.2.5",
     "opener": "^1.4.1",
     "phantomjs": "^1.9.18",
+    "prop-types": "^15.6.2",
     "react": "^0.14.0",
     "react-docgen": "^2.2.0",
     "react-dom": "^0.14.0",
